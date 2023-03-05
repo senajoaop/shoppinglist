@@ -43,7 +43,7 @@ function App() {
 
   return (
     <>
-      <h1>LISTA DE COMPRAS</h1>
+      <h1>Lista de Compras</h1>
       <ShopList items={items} toggleItem={toggleItem} />
       <input ref={itemNameRef} type="text" />
       <button onClick={handleAddItem}>Adicionar itens</button>

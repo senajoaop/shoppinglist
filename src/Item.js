@@ -8,8 +8,10 @@ export default function Item({ item, toggleItem }) {
   return (
     <div>
       <label>
-        <input type="checkbox" checked={item.complete} onChange={handleItemClick} />
-        {item.name}
+        <div class="list">
+          <input type="checkbox" checked={item.complete} onChange={handleItemClick} />
+          <p class="item">{item.name}</p>
+        </div>
       </label>
     </div>
   )
