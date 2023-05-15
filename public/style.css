@@ -80,6 +80,7 @@ body {
 #root .list {
   display: flex;
   align-items: center;
+  margin-bottom: 1.5rem;
 }
 
 #root .item {
@@ -87,8 +88,11 @@ body {
   font-weight: 700;
   font-size: 0.9rem;
   text-transform: capitalize;
+}
 
-  margin-bottom: 1.5rem;
+.info {
+  color: var(--cinza-escuro);
+  margin-top: 1.5rem;
 }
 
 .footer {

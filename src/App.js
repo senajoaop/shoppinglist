@@ -48,7 +48,7 @@ function App() {
       <input ref={itemNameRef} type="text" />
       <button onClick={handleAddItem}>Adicionar itens</button>
       <button onClick={handleClearItems}>Limpar items selecioados</button>
-      <div>Ainda restam {items.filter(item => !item.complete).length} itens</div>
+      <div class="info">Ainda restam {items.filter(item => !item.complete).length} itens</div>
     </>
   );
 }
